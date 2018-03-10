@@ -14,3 +14,7 @@ The intended use is for hackathon organizers who want to get a brief overview in
 
 ## Further Suggestions
 To take full advantage of the results of the surveys, I suggest you read the comments provided by the hackers to get a more specific list of things that could have gone better during the event. Feel free to reach out to me (josh[at]joshchen.me) if you have any questions. Remember that this grade should just be used as a general guideline for improving your hackathon, and more specific fixes will come only from introspection.
+
+## Last Notes
+If you get an error with utf-8 encoding, open up the .csv file in Excel and save as CSV-delimited with UTF-8 encoding. The hackathon name must also be the name of the file + '.csv' in order to be parsed correctly. Template data has been provided from a hackathon for reference. Run by
+    ./analyze.py hackathon_name
