@@ -18,3 +18,5 @@ To take full advantage of the results of the surveys, I suggest you read the com
 ## Last Notes
 If you get an error with utf-8 encoding, open up the .csv file in Excel and save as CSV-delimited with UTF-8 encoding. The hackathon name must also be the name of the file + '.csv' in order to be parsed correctly. Template data has been provided from a hackathon for reference. Run by
     ./analyze.py hackathon_name
+
+FYI: Yes, the code needs to be cleaned up, but this should be fairly functional for now. Good luck in organizing your hackathon!
